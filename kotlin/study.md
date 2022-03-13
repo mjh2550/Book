@@ -1,6 +1,8 @@
 #Study Kotlin
 
+
 fun main() {
+
     //println("Hello, world!!!")
     //helloWorld()
     //val name ="name!"
@@ -12,9 +14,10 @@ fun main() {
     
 }
 
-fun maxBy2(a:Int , b:Int):Int = if(a>b) a else b
+	fun maxBy2(a:Int , b:Int):Int = if(a>b) a else b
 
 //조건문 if, when 
+
 fun maxBy3(score : Int){
 	
     if(score>10){
@@ -42,11 +45,9 @@ fun maxBy3(score : Int){
     }
     
 }
+
 //expression vs Statement
-//
-//값을 만들면 expression (코틀린의 모든함수는
-// 다 expression,
-// void타입도 Unit으로 값을 반환하기 때문)
+//값을 만들면 expression (코틀린의 모든함수가 expression이다. 왜냐하면 void타입도 Unit으로 값을 반환하기 때문)
 //java void는 statement임(명령만 실행)
 //
 
@@ -73,7 +74,8 @@ fun array(){
 }
 
 
-//3. 반복문
+//반복문
+	
 fun forAndWhile(){
     
     val resultList : ArrayList<String> = 
@@ -146,6 +148,7 @@ var nullNameInUpperCase  = nullName?.toUpperCase() // 객체옆에 ? 붙여서 n
 8. Class
 
 //코틀린은 기본적으로 final class이기 때문에 상속을 하려면 open 키워드를 써줘야 한다.
+	
 //constructor 생략가능         //주 생성자
 open Class Human constructor( val name:Sring = "Anonymous"){
 	//val name = "name"
