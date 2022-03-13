@@ -1,10 +1,113 @@
 #Study Kotlin
-7. nulable / NonNull
 
-NPE
-자바는 컴파일 시점이 아닌 런타임 시점에서 NPE를 발생시킴
+fun main() {
+    //println("Hello, world!!!")
+    //helloWorld()
+    //val name ="name!"
+    //println("my name is ${name} 23")
+    //
+    //maxBy3(90)
+    
+    forAndWhile()
+    
+}
 
-코틀린에서 이것을 컴파일 시점에서 잡기 위해 ? 등장함
+fun maxBy2(a:Int , b:Int):Int = if(a>b) a else b
+
+//조건문 if, when 
+fun maxBy3(score : Int){
+	
+    if(score>10){
+        
+    }else{
+        
+    }
+    
+    when(score){
+        0->println("0임")
+        1->println("1임")
+        2,3,4,5->println("2345임")
+    }
+    
+    var b: Int = when(score){
+        1-> 1
+        2-> 2
+        else -> 3
+    }
+    
+    when(score){
+        in 90..100 -> println("you are genius")
+        in 10..80 -> println("you are soso")
+        else -> println("okay")
+    }
+    
+}
+//expression vs Statement
+//
+//값을 만들면 expression (코틀린의 모든함수는
+// 다 expression,
+// void타입도 Unit으로 값을 반환하기 때문)
+//java void는 statement임(명령만 실행)
+//
+
+//컬렉션(배열, 리스트)
+fun array(){
+    val array :Array<Int> = arrayOf(1,2,3)
+    val list : List<Int> = listOf(1,2,3)
+    
+    //Any로 다양한 타입 넣기 가능
+    val array2 : Array<Any> = arrayOf(1,"D",3)
+    val list2 : List<Any> = listOf(1,"D",11L)
+    
+    array[0] =3
+    //List는 인터페이스라서 수정이 불가하고 가져오는것만 가능
+    var result : Int = list.get(0)
+    
+    // mutableList는 수정가능, 기본 List는 수정불가
+    
+    //val은 주소값만 못바꾸는것이기 때문에 추가, 삭제는 문제없다.
+    val arrayList : ArrayList<Int> = arrayListOf<Int>()
+    arrayList.add(10)
+    arrayList.add(20)
+    
+}
+
+
+//3. 반복문
+fun forAndWhile(){
+    
+    val resultList : ArrayList<String> = 
+    arrayListOf("aaa","bbb","ccc","ddd")
+    
+  //  for(name : String in resultList){
+  //      println("${name}")
+  //}
+    
+    var sum : Int = 0
+    
+    for(i : Int in 1..10 ){//step 2
+        sum+= i
+        println(j)
+    }
+ //   for(i : Int in 10 downTo 1){
+ //       sum+= i
+ //       println(sum)
+ //   }
+    
+  //  for(i : Int in 1 until 100){ //100 미만
+  //      sum+= i
+   //     println(i)
+  //  }
+    
+}
+
+
+
+//7. nulable / NonNull
+
+//NPE
+//자바는 컴파일 시점이 아닌 런타임 시점에서 NPE를 발생시킴
+//코틀린에서 이것을 컴파일 시점에서 잡기 위해 ? 등장함
 
 var nullName : String? = null // null 가능, 물음표 없으면 null 못넣음
 
