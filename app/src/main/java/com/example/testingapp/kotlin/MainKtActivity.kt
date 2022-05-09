@@ -28,8 +28,6 @@ class MainKtActivity : AppCompatActivity() {
         initBinding()
         initNavigation()
 
-
-
     }
 
     private fun initNavigation() {

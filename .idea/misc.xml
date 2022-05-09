@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/TestingApp/app/src/main/res/layout/activity_coroutine.xml" value="0.16822916666666668" />
+        <entry key="..\:/TestingApp/app/src/main/res/layout/activity_coroutine_ex.xml" value="0.1875" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_main_kt.xml" value="0.15" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_recycle.xml" value="0.25364583333333335" />
+        <entry key="..\:/TestingApp/app/src/main/res/layout/activity_sckio.xml" value="0.16822916666666668" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_sql_insert.xml" value="0.24947916666666667" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_sql_main.xml" value="0.358695652173913" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/fragment_home.xml" value="0.25" />
