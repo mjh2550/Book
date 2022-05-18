@@ -1,4 +1,5 @@
 package com.example.testingapp.coroutine
 
-class coViewModel {
+class coViewModel constructor(viewModel: coViewModel){
+
 }

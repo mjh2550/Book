@@ -1,5 +1,6 @@
 package com.example.testingapp.socketio
 
+import android.util.Log
 import io.socket.client.IO
 import io.socket.client.Socket
 import java.net.URISyntaxException
@@ -10,9 +11,9 @@ class SocketApplication {
 
         fun get(): Socket {
             try {
-                socket = IO.socket("[uri]")
+                socket = IO.socket("http://10.1.8.184:8080")
             }catch (e: URISyntaxException){
-
+                Log.e("ERR",e.toString())
             }
             return socket
         }
