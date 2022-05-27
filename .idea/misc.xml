@@ -5,8 +5,10 @@
       <map>
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_coroutine.xml" value="0.16822916666666668" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_coroutine_ex.xml" value="0.1875" />
-        <entry key="..\:/TestingApp/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/TestingApp/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/TestingApp/app/src/main/res/layout/activity_main_context_menu.xml" value="0.140625" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_main_kt.xml" value="0.15" />
+        <entry key="..\:/TestingApp/app/src/main/res/layout/activity_main_popup_menu.xml" value="0.23125" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_permission.xml" value="0.1875" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_recycle.xml" value="0.25364583333333335" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_sckio.xml" value="0.16822916666666668" />
@@ -20,7 +22,10 @@
         <entry key="..\:/TestingApp/app/src/main/res/layout/view_items.xml" value="0.25364583333333335" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/view_main.xml" value="0.358695652173913" />
         <entry key="..\:/TestingApp/app/src/main/res/menu/btm_navi_menu.xml" value="0.13020833333333334" />
+        <entry key="..\:/TestingApp/app/src/main/res/menu/list_items.xml" value="0.23125" />
+        <entry key="..\:/TestingApp/app/src/main/res/menu/main_context_menu.xml" value="0.140625" />
         <entry key="..\:/TestingApp/app/src/main/res/menu/main_menu.xml" value="0.140625" />
+        <entry key="..\:/TestingApp/app/src/main/res/menu/main_popup_items.xml" value="0.23125" />
         <entry key="..\:/Users/moomj/AndroidStudioProjects/TestingApp/app/src/main/res/layout/activity_main.xml" value="0.34739583333333335" />
         <entry key="..\:/dev/etc/book/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/dev/etc/book/app/src/main/res/layout/activity_mvcmain.xml" value="0.1" />
