@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/TestingApp/app/src/main/res/layout/activity_add.xml" value="0.22" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_coroutine.xml" value="0.16822916666666668" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_coroutine_ex.xml" value="0.1875" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_main_context_menu.xml" value="0.140625" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_main_kt.xml" value="0.15" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_main_popup_menu.xml" value="0.23125" />
+        <entry key="..\:/TestingApp/app/src/main/res/layout/activity_main_roomdb2.xml" value="0.140625" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_permission.xml" value="0.1875" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_recycle.xml" value="0.25364583333333335" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/activity_sckio.xml" value="0.16822916666666668" />
@@ -18,10 +20,12 @@
         <entry key="..\:/TestingApp/app/src/main/res/layout/fragment_info.xml" value="0.1125" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/fragment_result.xml" value="0.1125" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/fragment_setting.xml" value="0.13020833333333334" />
+        <entry key="..\:/TestingApp/app/src/main/res/layout/item_cat.xml" value="0.140625" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/list_item.xml" value="0.24947916666666667" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/view_items.xml" value="0.25364583333333335" />
         <entry key="..\:/TestingApp/app/src/main/res/layout/view_main.xml" value="0.358695652173913" />
         <entry key="..\:/TestingApp/app/src/main/res/menu/btm_navi_menu.xml" value="0.13020833333333334" />
+        <entry key="..\:/TestingApp/app/src/main/res/menu/item_cat.xml" value="0.140625" />
         <entry key="..\:/TestingApp/app/src/main/res/menu/list_items.xml" value="0.23125" />
         <entry key="..\:/TestingApp/app/src/main/res/menu/main_context_menu.xml" value="0.140625" />
         <entry key="..\:/TestingApp/app/src/main/res/menu/main_menu.xml" value="0.140625" />

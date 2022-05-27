@@ -1,28 +1,14 @@
 package com.example.testingapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.databinding.DataBindingUtil;
-import androidx.lifecycle.ViewModelProvider;
-import androidx.room.Room;
-import androidx.room.RoomDatabase;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
 
-import com.example.testingapp.databinding.ActivityMainBinding;
-import com.example.testingapp.roomdb.User;
-import com.example.testingapp.roomdb.UserDao;
-import com.example.testingapp.roomdb.UserDatabase;
-import com.example.testingapp.sqlite.SqlMainActivity;
-
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Datac datac;
-    private UserDao mUserDao;
+   /* private Datac datac;
+    private UserDao mUserDao;*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
          * 뷰 바인드 , MVVM 실습
          */
         setContentView(R.layout.activity_main);
-
+/*
         datac= new Datac();
         ActivityMainBinding activityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
@@ -44,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
             }
-        });
+        });*/
 
         /**
          * Room DB 실습
@@ -56,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
          */
 
 
-        UserDatabase userDatabase = Room.databaseBuilder(getApplicationContext(), UserDatabase.class , "User_DB")
+      /*  UserDatabase userDatabase = Room.databaseBuilder(getApplicationContext(), UserDatabase.class , "User_DB")
                 .fallbackToDestructiveMigration() //스키마 (Database)버전 변경 가능
                 .allowMainThreadQueries()   //Main Thread에서 DB IO(입출력) 가능하게 함
                 .build();
@@ -74,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         for(int i = 0 ; i<userList.size() ; i++){
             Log.d("TEST", userList.get(i).getName());
         }
-
+*/
         /**
          * SqLite DB Connect
          */
